@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Upitnik</title>
+    <link rel="stylesheet" href="Css/Style.css">
+    <link rel="stylesheet" href="CSS/Uptnik.css">
+</head>
+<body>
+    <ul>
+        <li><a href="BMI.html">BMI kalkulator</a></li>
+        <li><a href="Kalorije.html">Kalkulator kalorija</a></li>
+        <li><a href="#contact">Tabela vezbi</a></li>
+        <li><a href="Upitnik.html">Upitnik</a></li>
+      
+    </ul>
+  <div>
+    <h1 class="naslovUpitnika">Upitnik o fizickim preferencijama posetilaca</h1>
+    <form >
+        <label>Ime     </label><input type="text" id="txtIme" required>
+        <br>
+        <label>Prezime     </label><input type="text" id="txtPrezime"required>
+        <br>
+        <label>Godine     </label><input type="text" id="txtGodine"required>
+        <br>
+        <label >Koliko puta nedeljno trenirate?</label><input type="radio" name="trening" value="nijednom" >Nijednom
+        <input type="radio" name="trening" value="1-2 puta nedeljno" >1-2 puta nedeljno
+        <input type="radio" name="trening" value="3-5 puta nedeljno" >3-5 puta nedeljno
+        <input type="radio" name="trening" value="svaki dan" >svaki dan
+        <br><label >Koji su vaši fitness ciljevi</label>
+        <br><input type="checkbox" name="ciljevi" value="Poboljsanje fizickog izgleda">Poboljsanje fizickog izgleda
+        <br><input type="checkbox" name="ciljevi" value="Povecanje samopouzdanja">Povecanje samopouzdanja
+        <br><input type="checkbox" name="ciljevi" value="Zdravlje">Zdravlje
+        <br><input type="checkbox" name="ciljevi" value="Mrsavljenje">Mrsavljenje
+        <br><input type="checkbox" name="ciljevi" value="Misicna snaga">Misicna snaga
+        <br><input type="checkbox" name="ciljevi" value="Miscna definicija">Miscna definicija
+        <br><input type="checkbox" name="ciljevi" value="Izbacivanje stresa">Izbacivanje stresa
+        <br>
+        <label>Ukoliko imate druge fitness ciljeve (a da nisu navedeni iznad)</label> <br><textarea name="komentar" id="komentar"cols="69" rows="3" >Dodajte komentar</textarea>
+        <br>
+        <label>Ocenite vaše nivo iskustva sa treningom:</label>
+        <select name="ocenaIskustva" id="iskustvo">
+            <option value="pocetni">Početni</option>
+            <option value="srednji">Srednji</option>
+            <option value="napredni">Napredni</option>
+        </select>
+        <br><br><br>
+        <button type="submit">Pošaljite</button>
+    
+    
+    </form>
+    </div>
+</body>
+</html>
